@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <title>Cronometro</title>
+</head>
+<body>
+    
+   
+    <div class="controle">
+        <button onclick="start()">Iniciar</button>
+        <button onclick="pause()">Pausar</button>
+        <button onclick="stop()">Parar</button>
+        <button onclick="restart()">Reiniciar</button>
+        <button onclick="lap()">Voltas</button>
+        <button onclick="reset()">Resetar Voltas</button>
+    </div>
+    
+    <div class="cronometro">00:00:00</div>
+    <ul class="laps"></ul>      
+
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
